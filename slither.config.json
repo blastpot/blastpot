@@ -1,0 +1,16 @@
+{
+    "solc_args": "optimize",
+    "solc_remaps": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/",
+        "solmate/=lib/solmate/src/",
+        "entropy/=node_modules/@pythnetwork/entropy-sdk-solidity/",
+        "solady/=lib/solady/src/",
+        "test/=test/",
+        "src/=src/",
+        "interfaces/=src/interfaces/",
+        "mock/=test/mock/",
+        "utils/=test/utils/",
+        "actor/=test/actor/"
+    ]
+}
